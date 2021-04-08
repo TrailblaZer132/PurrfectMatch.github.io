@@ -1,0 +1,63 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    height: 100vh;
+    background-image: linear-gradient(  rgba(177, 238, 241, 0.5),rgba(0, 0, 0, 0.5)),url(images.png);
+    background-size: cover;
+    background-position: center;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif ;
+
+} 
+h1
+{  
+    colour: #fff;
+    margin-bottom; 70px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 5em;
+
+} 
+.search-field
+{
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+.adoption  
+{ 
+    width: 400px;
+}
+.location
+{
+    width: 200px;
+}
+.search-btn
+{
+    height: 50px;
+    width: 150px;
+    background: #ffeb3b;
+    border: none;
+    color: #000;
+    border-radius: 25px;
+     
+}
+.search-btn:hover{
+  background: #ffc107;
+  cursor: pointer;  
+}
+.form-box
+{
+    
+    padding: 30px;
+}
